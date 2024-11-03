@@ -1,14 +1,17 @@
  /* General Styling */
  body {
     font-family: Century Gothic;
-    background-color: #f4f4f4;
-    margin: 10px;
+    background-image: url(https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
     padding: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
  } 
 
  .resume-container {
     display: flex;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
@@ -17,7 +20,7 @@
 
  /* Left Section Styling */
  .left-section {
-    background-color: #2c2c2c;
+    background-color: rgba(44,44,44, 0.7);
     color: white;
     padding: 20px;
     width: 35%;
