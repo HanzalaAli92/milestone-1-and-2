@@ -84,3 +84,29 @@
  button:hover {
    background-color: #ff737c;
  }
+
+ @media screen and (max-width: 600px) {
+   
+   body {
+   padding: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin: 0px;
+   height: 1000px;
+   width: 360px;
+} 
+
+  .resume-container {
+    
+     width: 120%;
+     height: 1000px;
+     border-radius: 0px;
+  
+  }
+ 
+  /* Left Section Styling */
+  .left-section {
+     border-radius: 0px ;
+  } 
+
+}
